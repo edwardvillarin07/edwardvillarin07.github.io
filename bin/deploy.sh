@@ -36,6 +36,7 @@ git add -A
 git -c user.name="$(git -C "$ROOT" config user.name || echo 'Doers Minds')" \
     -c user.email="$(git -C "$ROOT" config user.email || echo 'dev@doersminds.com')" \
     commit -qm "$MSG"
-git push -q origin "$BRANCH"
+# Each deploy is a fresh orphan snapshot of the build output, so the push is forced.
+git push -qf origin "$BRANCH"
 
 echo "==> Published to $BRANCH"
