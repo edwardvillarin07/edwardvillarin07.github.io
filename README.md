@@ -7,9 +7,9 @@ Source for the **Doers Minds** website, built on the [Chirpy](https://github.com
 | Branch | Purpose |
 | --- | --- |
 | `main` | Jekyll source — content, configuration, tabs |
-| `gh-pages` | Prebuilt static site that GitHub Pages actually serves |
+| `gh-pages` | Legacy prebuilt output, kept as an emergency fallback only |
 
-GitHub Pages is set to **Deploy from a branch → `gh-pages`**, so publishing does not depend on GitHub Actions minutes.
+GitHub Pages is set to **Source: GitHub Actions**. Every push to `main` runs `.github/workflows/pages-deploy.yml`, which builds the site, runs `htmlproofer`, and deploys it to <https://doersminds.com>.
 
 ## Content
 
@@ -43,10 +43,11 @@ bundle exec jekyll serve
 
 ```bash
 git add -A && git commit -m "Update content"
-git push          # source
-./bin/deploy.sh   # builds and pushes _site to gh-pages
+git push          # GitHub Actions builds and deploys automatically
 ```
 
-## A note on Actions
+Watch the run with `gh run watch -R edwardvillarin07/edwardvillarin07.github.io`.
 
-`.github/workflows/pages-deploy.yml` can build and deploy from `main` with GitHub Actions, but its `push` trigger is disabled because Actions runs are blocked by a billing issue on the account. Once that is resolved you can re-enable the trigger, switch Pages to **Source: GitHub Actions**, and stop using `bin/deploy.sh`.
+## Emergency fallback
+
+If Actions is ever unavailable, `bin/deploy.sh` builds locally and pushes the result to the `gh-pages` branch. To use it you must also switch **Settings → Pages → Source** back to *Deploy from a branch → `gh-pages`*.
