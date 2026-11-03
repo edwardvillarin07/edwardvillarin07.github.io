@@ -16,11 +16,12 @@ timezone: Asia/Manila
 
 title: Doers Minds # the main title
 
-tagline: Engineering partner for bold ideas # it will display as the subtitle
+tagline: Security partner for growing companies # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  You don't need a bigger internal dev team. You need a partner who can make
-  your boldest ideas operational.
+  Doers Minds is a cybersecurity startup that helps companies find, fix, and
+  stay ahead of security risk, through assessments, penetration testing,
+  compliance readiness, and incident response.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
