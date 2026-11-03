@@ -56,4 +56,4 @@ We work with companies that hold customer data, depend on uptime, or need to pro
 
 Tell us what worries you about your current setup. We will tell you what we would check first, what it would take, and whether we are the right fit.
 
-[Book a 30-minute security briefing](mailto:hello@doersminds.com)
+[Book a 30-minute security briefing](mailto:edwardvillarin@doersminds.com)
