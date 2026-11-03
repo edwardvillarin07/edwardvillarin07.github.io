@@ -1,11 +1,8 @@
 ---
 title: "Why we started Doers Minds"
-date: 2026-11-03
-permalink: /blog/why-we-started-doers-minds/
-categories:
-  - company
-tags:
-  - company
+date: 2026-11-03 09:00:00 +0800
+categories: [Company]
+tags: [company, engineering]
 ---
 
 Every company that grows past its first product hits the same wall. The roadmap is clear, the opportunity is real, and the internal team is already fully committed to keeping the thing that exists alive. What they need is not another headcount requisition. They need someone who can take a messy, half-specified idea and turn it into something running in production.
