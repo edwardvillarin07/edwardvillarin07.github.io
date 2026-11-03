@@ -225,3 +225,5 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+# Deployment: push to main -> GitHub Actions (.github/workflows/pages-deploy.yml) -> Pages
