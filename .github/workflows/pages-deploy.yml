@@ -1,9 +1,15 @@
 name: "Build and Deploy"
 on:
-  # Pushes do not trigger this workflow: Actions is currently blocked by a
-  # billing issue on the account, and Pages serves the prebuilt `gh-pages`
-  # branch (see bin/deploy.sh). Re-enable the `push` trigger once billing is
-  # resolved and Pages is switched to "Source: GitHub Actions".
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - .gitignore
+      - README.md
+      - LICENSE
+      - bin/**
+
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 permissions:
