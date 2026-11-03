@@ -1,29 +1,41 @@
 ---
 permalink: /
-title: "Edward Villarin"
+title: "Engineering partner for bold ideas"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
 
-Welcome to my site. I am an academic and professional working on projects across research, teaching, and software. This site collects my publications, talks, teaching material, portfolio work, and writing in one place.
+**You don't need a bigger internal dev team. You need a partner who can make your boldest ideas operational.**
 
-## About me
+That's where Doers Minds steps in. We are a product and engineering partner based in the Philippines, working with teams that need to ship real software — not slide decks. From the first sketch to the production deploy, we build, harden, and hand over systems that keep running.
 
-I am a builder and researcher interested in how knowledge, tools, and design come together to solve practical problems. My work spans academic research and hands-on product development, and I enjoy working in the space where the two overlap.
+## What we do
 
-You can find my code on [GitHub](https://github.com/edwardvillarin07).
+**Product engineering**
+We take an idea from concept to a working, testable product. Fast discovery, real prototypes, and code you can actually maintain.
 
-## What you will find here
+**Platform and infrastructure**
+APIs, data pipelines, deployment automation, and the unglamorous plumbing that decides whether a product survives its first thousand users.
 
-- **[Publications](/publications/)** — peer-reviewed papers, manuscripts, and conference contributions.
-- **[Talks](/talks/)** — presentations, seminars, and workshops.
-- **[Teaching](/teaching/)** — courses, materials, and mentoring.
-- **[Portfolio](/portfolio/)** — selected projects and applied work.
-- **[Blog Posts](/year-archive/)** — notes, essays, and write-ups.
-- **[CV](/cv/)** — a full academic curriculum vitae.
+**Applied AI and data**
+Practical machine learning where it earns its keep — moderation, classification, search, and automation — not demos that fall apart on real inputs.
 
-## Get in touch
+**Security-minded development**
+We build with threat models in mind, from sandboxing and access control to the small decisions that keep an incident from becoming a headline.
 
-The best way to reach me is through the contact links in the sidebar. I am always happy to hear about interesting research, collaborations, and projects.
+## How we work
+
+- **Small, senior teams.** The people you meet are the people who build.
+- **Working software over ceremony.** Weekly demos, not status decks.
+- **Everything is yours.** Code, infrastructure, and documentation are handed over in a state your team can own.
+- **Direct communication.** Clear scope, honest estimates, and early bad news.
+
+## Selected work
+
+Have a look at [our work](/portfolio/) or read the [blog](/year-archive/) for notes on what we're building and learning.
+
+## Start a conversation
+
+We're always happy to talk about a hard problem. Reach out at [github.com/Doers-Minds](https://github.com/Doers-Minds) or open an issue on any of our public repositories.
