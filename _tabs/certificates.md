@@ -19,6 +19,14 @@ A record of the certifications and trainings completed. Select any certificate t
         <p class="cert-meta">DICT Region XI &ndash; Davao del Sur<br>20-hour training &middot; October 20&ndash;22, 2026</p>
       </figcaption>
     </figure>
+    <figure class="cert-card">
+      <img class="cert-image" src="{{ '/assets/img/eh.png' | relative_url }}" alt="Cisco Networking Academy Certificate of Course Completion awarded to Edward Villarin for the Ethical Hacker course, issued November 6, 2026">
+      <figcaption class="cert-body">
+        <p class="cert-kicker">Certificate of Course Completion</p>
+        <h3 class="cert-title">Ethical Hacker</h3>
+        <p class="cert-meta">Cisco Networking Academy<br>Issued November 6, 2026</p>
+      </figcaption>
+    </figure>
   </div>
 </div>
 
