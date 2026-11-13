@@ -2,7 +2,7 @@
 title: Certificates
 icon: fas fa-certificate
 order: 3
-description: Certificates and completed training for Edward Villarin, including DICT cybersecurity training.
+description: Certificates and completed training for Edward Villarin, including cybersecurity certifications from Appkademiya, Cisco Networking Academy, and DICT.
 ---
 
 ## Certificates and training
@@ -25,6 +25,14 @@ A record of the certifications and trainings completed. Select any certificate t
         <p class="cert-kicker">Certificate of Course Completion</p>
         <h3 class="cert-title">Ethical Hacker</h3>
         <p class="cert-meta">Cisco Networking Academy<br>Issued November 6, 2026</p>
+      </figcaption>
+    </figure>
+    <figure class="cert-card">
+      <img class="cert-image" src="{{ '/assets/img/cira.png' | relative_url }}" alt="Appkademiya Certificate of Achievement awarded to Edward Villarin for the Certified Incident Response Analyst (CIRA) certification, issued November 13, 2026">
+      <figcaption class="cert-body">
+        <p class="cert-kicker">Certificate of Achievement</p>
+        <h3 class="cert-title">Certified Incident Response Analyst (CIRA)</h3>
+        <p class="cert-meta">Appkademiya &middot; Digitally Verified<br>Issued November 13, 2026</p>
       </figcaption>
     </figure>
   </div>
