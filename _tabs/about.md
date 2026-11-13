@@ -12,6 +12,7 @@ description: Edward Villarin is the owner and engineer at Doers Minds, a cyberse
   <p class="owner-company">Doers Minds</p>
 </div>
 
+<div class="owner-grid">
 <div class="owner-details">
   <dl>
     <div class="owner-detail">
@@ -81,6 +82,7 @@ description: Edward Villarin is the owner and engineer at Doers Minds, a cyberse
     </ul>
   </div>
 </div>
+</div>
 
 <style>
 .owner-profile,
@@ -134,9 +136,23 @@ description: Edward Villarin is the owner and engineer at Doers Minds, a cyberse
   font-size: 0.95rem;
 }
 
-.owner-details {
-  max-width: 34rem;
+.owner-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.25rem;
+  max-width: 60rem;
   margin: 0 auto 1rem;
+  align-items: stretch;
+}
+
+@media (min-width: 768px) {
+  .owner-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.owner-details {
+  margin: 0;
   overflow: hidden;
   border: 1px solid var(--main-border-color);
   border-radius: 0.75rem;
@@ -187,8 +203,7 @@ description: Edward Villarin is the owner and engineer at Doers Minds, a cyberse
 }
 
 .owner-skills {
-  max-width: 34rem;
-  margin: 1.75rem auto 1rem;
+  margin: 0;
   padding: 1.15rem 1.25rem 1.3rem;
   border: 1px solid var(--main-border-color);
   border-radius: 0.75rem;
