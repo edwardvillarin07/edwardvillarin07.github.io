@@ -2,58 +2,251 @@
 title: About
 icon: fas fa-info-circle
 order: 1
-description: Doers Minds is a cybersecurity startup helping companies find and fix security risk, prepare for compliance, and respond to incidents.
+description: Edward Villarin is the owner and engineer at Doers Minds, a cybersecurity company helping businesses find and fix security risk.
 ---
 
-## We find the gaps attackers look for, then help you close them
+<div class="owner-profile">
+  <img class="owner-photo" src="{{ '/assets/img/edward-villarin.png' | relative_url }}" alt="Portrait of Edward Villarin, Owner and Engineer at Doers Minds">
+  <h2 class="owner-name">Edward Villarin</h2>
+  <p class="owner-role">Owner &amp; Engineer</p>
+  <p class="owner-company">Doers Minds</p>
+</div>
 
-Security incidents rarely arrive with a warning. A missed patch, a reused password, or one convincing email can stop operations, expose customer data, and put contracts at risk. The earlier you find those gaps, the cheaper they are to close.
+<div class="owner-details">
+  <dl>
+    <div class="owner-detail">
+      <dt>Full name</dt>
+      <dd>Edward Villarin</dd>
+    </div>
+    <div class="owner-detail">
+      <dt>Email</dt>
+      <dd><a href="mailto:edwardvillarin@doersminds.com">edwardvillarin@doersminds.com</a></dd>
+    </div>
+    <div class="owner-detail">
+      <dt>School</dt>
+      <dd>AMA University</dd>
+    </div>
+    <div class="owner-detail">
+      <dt>Degree</dt>
+      <dd>Bachelor of Science in Cybersecurity</dd>
+    </div>
+  </dl>
+</div>
 
-Doers Minds is a cybersecurity startup for businesses that need serious protection without an enterprise-sized security team. We assess where you are exposed, fix what matters first, and stay until the risk is under control.
+<div class="owner-skills">
+  <h2 class="owner-skills-title">Skills</h2>
 
-## What we do
+  <div class="skill-group">
+    <p class="skill-label">Security</p>
+    <ul class="skill-tags">
+      <li>SOC operations</li>
+      <li>Penetration testing</li>
+      <li>Vulnerability assessment</li>
+      <li>Incident response</li>
+      <li>Web app security</li>
+      <li>OWASP Top 10</li>
+    </ul>
+  </div>
 
-### Assess and test
+  <div class="skill-group">
+    <p class="skill-label">Platforms</p>
+    <ul class="skill-tags">
+      <li>Windows</li>
+      <li>Linux (VPS/VDS admin)</li>
+      <li>Azure</li>
+      <li>Microsoft 365</li>
+      <li>AWS</li>
+      <li>Cloudflare</li>
+    </ul>
+  </div>
 
-We map your systems, identities, and data flows, then test your defenses the way an attacker would. You get a clear picture of what is exposed and what to fix first.
+  <div class="skill-group">
+    <p class="skill-label">Languages &amp; Tools</p>
+    <ul class="skill-tags">
+      <li>PHP</li>
+      <li>Java (Desktop + Web)</li>
+      <li>JavaScript</li>
+      <li>C</li>
+      <li>Python</li>
+      <li>PowerShell</li>
+      <li>Bash</li>
+      <li>Burp Suite</li>
+      <li>Wireshark</li>
+      <li>Metasploit</li>
+      <li>Git</li>
+      <li>Docker</li>
+      <li>Laravel</li>
+      <li>React</li>
+      <li>Machine Learning</li>
+    </ul>
+  </div>
+</div>
 
-### Meet compliance requirements
+<style>
+.owner-profile,
+.owner-skills {
+  --owner-accent: #5c2793;
+}
 
-We prepare you for ISO 27001 certification, SOC 2 examinations, and Data Privacy Act compliance, with controls that fit how your business actually runs.
+.owner-profile {
+  margin: 2rem auto 1rem;
+  max-width: 34rem;
+  text-align: center;
+}
 
-### Build incident readiness
+[data-bs-theme="dark"] .owner-profile,
+[data-bs-theme="dark"] .owner-skills {
+  --owner-accent: #c9a7f5;
+}
 
-We write the response plan, run the tabletop exercise, and help you act when an incident is live.
+.owner-photo {
+  display: block;
+  width: 11.5rem;
+  max-width: 60%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  margin: 0 auto 1.1rem;
+  border-radius: 50%;
+  border: 4px solid var(--card-bg);
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.18);
+}
 
-### Strengthen your people
+.owner-name {
+  margin: 0 0 0.35rem;
+  font-size: 1.75rem;
+  line-height: 1.2;
+  border-bottom: none;
+}
 
-Our security awareness training uses realistic phishing simulations to show your team what an attack looks like and how to respond.
+.owner-role {
+  margin: 0 0 0.15rem;
+  color: var(--owner-accent);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
 
-### Provide ongoing leadership
+.owner-company {
+  margin: 0 0 0.9rem;
+  color: var(--text-muted-color);
+  font-size: 0.95rem;
+}
 
-A fractional security lead can sit in your planning meetings, review architecture, and keep the program moving after the first project ends.
+.owner-details {
+  max-width: 34rem;
+  margin: 0 auto 1rem;
+  overflow: hidden;
+  border: 1px solid var(--main-border-color);
+  border-radius: 0.75rem;
+  background: var(--card-bg);
+}
 
-## How we work
+.owner-details dl {
+  margin: 0;
+}
 
-1. **Understand the business.** We learn what you do, what you would lose, and what you are required to protect.
-2. **Expose the risk.** We show you the gaps, the attack paths, and the business impact in plain language.
-3. **Fix what matters first.** You get a prioritized plan based on business risk. We work alongside your team to implement it.
-4. **Prove the improvement.** We retest, document, and help you show clients and auditors that the risk is lower.
+.owner-detail {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0;
+  padding: 0.8rem 1.1rem;
+}
 
-## Why companies work with us
+.owner-detail + .owner-detail {
+  border-top: 1px solid var(--main-border-color);
+}
 
-The name is deliberate. We would rather help you fix one critical gap this month than hand over a report you will never use. Our work ends when your risk is lower, and that is how we measure success.
+.owner-detail dt {
+  flex: 0 0 auto;
+  margin: 0;
+  color: var(--text-muted-color);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
 
-- Senior security people do the work, from the first call to the final retest.
-- Findings come with business context, so leadership knows what to fund and why.
-- You get documentation you can share with clients, auditors, and your board.
+.owner-detail dd {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-align: right;
+}
 
-## Who we help
+.owner-detail a {
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
 
-We work with companies that hold customer data, depend on uptime, or need to prove security to enterprise clients and regulators. If your IT lead already has too much on their plate, we are built for you.
+.owner-detail a:hover {
+  text-decoration: underline;
+}
 
-## Start with a conversation
+.owner-skills {
+  max-width: 34rem;
+  margin: 1.75rem auto 1rem;
+  padding: 1.15rem 1.25rem 1.3rem;
+  border: 1px solid var(--main-border-color);
+  border-radius: 0.75rem;
+  background: var(--card-bg);
+}
 
-Tell us what worries you about your current setup. We will tell you what we would check first, what it would take, and whether we are the right fit.
+.owner-skills-title {
+  margin: 0 0 1rem;
+  padding: 0;
+  border-bottom: none;
+  color: var(--text-muted-color);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
 
-[Book a 30-minute security briefing](mailto:edwardvillarin@doersminds.com)
+.skill-group + .skill-group {
+  margin-top: 1.1rem;
+}
+
+.skill-label {
+  margin: 0 0 0.45rem;
+  color: var(--owner-accent);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skill-tags li {
+  padding: 0.18rem 0.6rem;
+  border: 1px solid var(--main-border-color);
+  border-radius: 999px;
+  background: var(--main-bg);
+  color: var(--text-color);
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 480px) {
+  .owner-detail {
+    flex-direction: column;
+    gap: 0.15rem;
+  }
+
+  .owner-detail dd {
+    text-align: left;
+  }
+}
+</style>
