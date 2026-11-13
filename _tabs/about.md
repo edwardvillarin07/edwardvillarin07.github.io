@@ -125,6 +125,10 @@ description: Edward Villarin is the owner and engineer at Doers Minds, a cyberse
 </div>
 
 <style>
+.dynamic-title {
+  display: none;
+}
+
 .owner-profile,
 .owner-skills {
   --owner-accent: #5c2793;
