@@ -104,6 +104,26 @@ description: Edward Villarin is the owner and engineer at Doers Minds, a cyberse
 </div>
 </div>
 
+<div class="github-stats">
+  <h2 class="github-stats-title">GitHub contributions</h2>
+  <a
+    class="github-stats-link"
+    href="https://github.com/edwardvillarin07"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Edward Villarin on GitHub"
+  >
+    <img
+      class="github-graph"
+      src="https://ghchart.rshah.org/5c2793/edwardvillarin07"
+      alt="Edward Villarin's GitHub contribution graph"
+      width="663"
+      height="104"
+      loading="lazy"
+    >
+  </a>
+</div>
+
 <style>
 .owner-profile,
 .owner-skills {
@@ -272,6 +292,44 @@ description: Edward Villarin is the owner and engineer at Doers Minds, a cyberse
   color: var(--text-color);
   font-size: 0.8rem;
   line-height: 1.5;
+}
+
+.github-stats {
+  max-width: 60rem;
+  margin: 1.75rem auto 1rem;
+  text-align: center;
+}
+
+.github-stats-title {
+  margin: 0 0 1rem;
+  padding: 0;
+  border-bottom: none;
+  color: var(--text-muted-color);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.github-stats-link {
+  display: inline-block;
+  line-height: 0;
+  transition: transform 0.18s ease;
+}
+
+.github-stats-link:hover {
+  transform: translateY(-2px);
+}
+
+.github-graph {
+  width: 663px;
+  max-width: 100%;
+  height: auto;
+}
+
+[data-bs-theme="dark"] .github-graph {
+  filter: invert(1) hue-rotate(180deg);
 }
 
 @media (max-width: 480px) {
