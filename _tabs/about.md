@@ -24,6 +24,22 @@ description: Edward Villarin is the owner and engineer at Doers Minds, a cyberse
       <dd><a href="mailto:edwardvillarin@doersminds.com">edwardvillarin@doersminds.com</a></dd>
     </div>
     <div class="owner-detail">
+      <dt>LinkedIn</dt>
+      <dd>
+        <a href="https://www.linkedin.com/in/edward-villarin-06883a290/" target="_blank" rel="noopener noreferrer">
+          edward-villarin-06883a290
+        </a>
+      </dd>
+    </div>
+    <div class="owner-detail">
+      <dt>RPW</dt>
+      <dd>
+        <a href="https://rpiers.com/profile/@roleplayworld" target="_blank" rel="noopener noreferrer">
+          Role Play World
+        </a>
+      </dd>
+    </div>
+    <div class="owner-detail">
       <dt>School</dt>
       <dd>AMA University</dd>
     </div>
