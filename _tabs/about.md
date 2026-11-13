@@ -40,6 +40,10 @@ description: Edward Villarin is the owner and engineer at Doers Minds, a cyberse
       </dd>
     </div>
     <div class="owner-detail">
+      <dt>Team</dt>
+      <dd>Red Cell 63</dd>
+    </div>
+    <div class="owner-detail">
       <dt>School</dt>
       <dd>AMA University</dd>
     </div>
